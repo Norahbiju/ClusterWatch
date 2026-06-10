@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: clusterwatch-backend
   namespace: clusterwatch
+  #
 spec:
   replicas: 2
   selector: { matchLabels: { app: clusterwatch-backend } }
