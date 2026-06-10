@@ -4,7 +4,7 @@ resource "azurerm_communication_service" "main" {
   data_location       = var.data_location
   tags                = var.tags
 }
-
+#
 resource "azurerm_email_communication_service" "main" {
   name                = "email-${var.name_prefix}"
   resource_group_name = var.resource_group_name
